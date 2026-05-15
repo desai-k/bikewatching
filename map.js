@@ -8,6 +8,7 @@ console.log('Mapbox GL JS Loaded:', mapboxgl);
 
 mapboxgl.accessToken = 'pk.eyJ1Ijoia3Jpc2hkIiwiYSI6ImNtcDdnOWR4ZzAzMDAycHB0dTF2dWRzYzgifQ.osKJTYgoWFXalN9HwaPf4g';
 
+
 const map = new mapboxgl.Map({
   container: 'map',
   style: 'mapbox://styles/mapbox/streets-v12',
